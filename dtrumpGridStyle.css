@@ -1,22 +1,26 @@
-.body{
+body{
 	margin: 0;
 	padding: 0;
-	background: white;
+	background-image: url("https://qzprod.files.wordpress.com/2015/06/rtx1gzco-cropped.jpg?quality=80&strip=all&w=1600");
+	background-attachment: fixed;
+	min-width: 1200px;
 }
 
 #meme-grid{
 	position: relative;
 	margin: auto;
-	background-color: blue;
+	background-color: rgba(147, 204, 191, 0.1);
 	width: 1200px;
 	min-width: 1200px;
 	overflow: scroll;
+	display: block;
+	height: 800px;
+	overflow: hidden;
 }
 
 .meme-element{
 	position: relative;
-	float: left;
-	width: 285px;
+	width: 290px;
 	min-width: 285px;
 	margin: 5px;
 	top: 0;
@@ -30,4 +34,56 @@
 .meme-img{
 	width: 100%;
 	height: 100%;
+}
+
+.fill{
+	display:flex;
+    justify-content:center;
+    align-items:center;
+	overflow:hidden;
+	height: 700px;
+	width: 100%;
+}
+
+h1 { 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 70px;
+	color:white;
+	position: absolute; 
+	top: 300px; 
+	height: 100px;
+	width: 1000px; 
+	left: 160px;
+	color: white;
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;  
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	float: left;
+}
+
+#sixth{
+	top: -385px;
+}
+
+#seventh{
+	top: -75px;
+}	
+
+#eight{
+	top: -235px;
+}
+
+#ninth{
+	top: -525px;
 }
